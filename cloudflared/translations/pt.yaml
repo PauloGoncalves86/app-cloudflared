@@ -3,7 +3,7 @@ configuration:
   log_level:
     name: Nível de logging
     description: >-
-      Define o nivel de registo de logging da app.
+      Define o nivel de registo de registo/logging da app.
   external_hostname:
     name: Nome externo do seu servidor do Home Assistant
     description: >-
