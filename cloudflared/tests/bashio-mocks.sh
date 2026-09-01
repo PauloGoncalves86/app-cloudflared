@@ -1,5 +1,5 @@
 # Bashio helper mocks used for local shell unit tests.
-# This file is intended to be sourced by shell test harnesses.
+# This file is intended to be sourced by shell test harnesses. 
 
 declare -Ag TEST_CONFIG
 TEST_CONFIG=()
