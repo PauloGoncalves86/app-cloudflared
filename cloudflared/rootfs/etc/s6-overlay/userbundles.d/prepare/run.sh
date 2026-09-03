@@ -4,7 +4,7 @@
 # Home Assistant App: Cloudflared
 #
 # Configures the Cloudflare Tunnel and creates the needed DNS entry under the
-# given hostname(s) 
+# given hostname(s)
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
