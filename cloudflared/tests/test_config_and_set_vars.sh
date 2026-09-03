@@ -11,7 +11,7 @@ ROOT_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
 # shellcheck source=./bashio-mocks.sh
 source "${ROOT_DIR}/tests/bashio-mocks.sh"
 # shellcheck source=../rootfs/etc/s6-overlay/s6-rc.d/prepare/run.sh
-source "${ROOT_DIR}/rootfs/etc/s6-overlay/s6-rc.d/prepare/run.sh"
+source "${ROOT_DIR}/rootfs/etc/s6-overlay/userbundles.d/prepare/run.sh"
 
 external_hostname=""
 ha_url=""

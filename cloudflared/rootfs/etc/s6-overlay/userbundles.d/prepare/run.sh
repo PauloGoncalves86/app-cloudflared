@@ -451,7 +451,7 @@ createDNS() {
 # ------------------------------------------------------------------------------
 setCloudflaredLogLevel() {
 
-    # Set cloudflared log to "info" as default
+    # Default cloudflared log to "info" 
     CLOUDFLARED_LOG="info"
 
     # Check if user wishes to change log severity
@@ -478,7 +478,7 @@ main() {
 
     setCloudflaredLogLevel
 
-    # Run connectivity checks if debug mode activated
+    # Run connectivity checks if debug mode has been activated
     if bashio::debug; then
         bashio::log.debug "Checking connectivity to Cloudflare"
         checkConnectivity
