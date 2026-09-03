@@ -478,7 +478,7 @@ main() {
 
     setCloudflaredLogLevel
 
-    # Run connectivity checks if debug mode activated
+    # Run connectivity checks if debug mode has been activated
     if bashio::debug; then
         bashio::log.debug "Checking connectivity to Cloudflare"
         checkConnectivity
