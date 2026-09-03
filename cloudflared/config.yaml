@@ -8,7 +8,8 @@ slug: cloudflared-bundles-1
 description: "PT bundles 
   Use a Cloudflare Tunnel to remotely
   connect to Home Assistant without opening any ports"
-url: "https://github.com/homeassistant-apps/app-cloudflared"
+#url: "https://github.com/homeassistant-apps/app-cloudflared"
+url: "https://github.com/PauloGoncalves86/app-cloudflared"
 startup: services
 init: false
 hassio_api: true
