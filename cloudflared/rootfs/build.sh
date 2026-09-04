@@ -20,6 +20,8 @@ case "${BUILD_ARCH}" in
     ;;
 esac
 
+chmod +x /etc/s6-overlay/s6-rc.d/prepare/run.sh
+
 # Download the cloudflared bin
 wget -q -O /usr/bin/cloudflared "https://github.com/cloudflare/cloudflared/releases/download/${CLOUDFLARED_VERSION}/cloudflared-linux-${cloudflared_arch}"
 
