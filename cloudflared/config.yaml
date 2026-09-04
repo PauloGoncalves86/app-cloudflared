@@ -1,11 +1,11 @@
 ---
 name: Cloudflared
-version: "2026.8.3-pt-bundles2"
+version: "2026.8.3-pt-bundles1"
 breaking_versions:
   - 5.3.7
   - 6.0.0
-slug: cloudflared-bundles-2
-description: "PT bundles2
+slug: cloudflared-bundles-1
+description: "PT bundles1
   Use a Cloudflare Tunnel to remotely
   connect to Home Assistant without opening any ports"
 # url: "https://github.com/homeassistant-apps/app-cloudflared"
