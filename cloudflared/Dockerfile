@@ -1,7 +1,7 @@
 FROM ghcr.io/hassio-addons/base:21.0.3
 
 # Set S6 verbosity level
-ENV S6_VERBOSITY="1"
+ENV S6_VERBOSITY="3"
 
 # Setup base
 ARG BUILD_ARCH="amd64"
