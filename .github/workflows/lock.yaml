@@ -7,6 +7,10 @@ on:
     - cron: "25 3 * * *"
   workflow_dispatch:
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   workflows:
     uses: hassio-addons/workflows/.github/workflows/lock.yaml@main
