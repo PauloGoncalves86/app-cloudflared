@@ -15,6 +15,10 @@ on:
       - synchronize
   workflow_dispatch:
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   information:
     name: Gather app information
